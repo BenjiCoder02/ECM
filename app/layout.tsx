@@ -17,13 +17,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className="h-lvh">
         <header>
           <Header />
         </header>
         {children}
         <footer>
-          
+
         </footer>
       </body>
     </html>
