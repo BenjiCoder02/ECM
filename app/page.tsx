@@ -1,4 +1,5 @@
 import { SignIn } from "@/components/SignIn/SignIn";
+import SignUpForm from "@/components/Signup/SignupForm";
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
           <h3>Connect with friends and the world around you on ECM.</h3>
         </div>
         <div className="w-3/6">
-          <SignIn />
+          <SignUpForm />
         </div>
       </div>
     </main>
