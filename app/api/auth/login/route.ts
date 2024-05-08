@@ -11,7 +11,7 @@ export async function POST(req: NextApiRequest, res: NextApiResponse) {
     //const user = new User({ email: body.email, password: body.password });
     //user.save();
 
-    return NextResponse.json({ "status": "SUCCESS" });
+    return NextResponse.json({ status: "SUCCESS" });
 
   } catch (err) {
     console.log(err)

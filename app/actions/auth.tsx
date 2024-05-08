@@ -2,7 +2,7 @@
 
 import bcrypt from 'bcryptjs';
 
-import { SignupFormSchema, FormState } from '@/app/lib/definitions'
+import { SignupFormSchema } from '@/app/lib/definitions'
 import { db } from '../helpers/api/database';
 
 
