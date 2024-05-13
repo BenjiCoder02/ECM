@@ -1,10 +1,10 @@
-import { signIn, auth, signOut } from "../../auth.ts"
+import { signIn, auth, signOut } from "../../auth"
 
 async function SignUpForm() {
   const session = await auth();
   const userAuthenticated = session !== null && session?.user !== null;
   const buttonText = userAuthenticated ? 'Sign out' : 'Sign In/Sign Up';
-  console.log(session)
+
   return (
     <form
       action={async () => {

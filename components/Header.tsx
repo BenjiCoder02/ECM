@@ -1,5 +1,6 @@
 import Link from "next/link";
 import SignUpForm from "./Signup/SignupForm";
+import Avatar from "./Profile/Avatar";
 
 function Header() {
   return (
@@ -12,6 +13,7 @@ function Header() {
         <li className="p-5">
           <SignUpForm />
         </li>
+          <Avatar />
       </ul>
     </div>
   );
